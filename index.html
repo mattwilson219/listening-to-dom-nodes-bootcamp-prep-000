@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<script>const input = document.querySelector('input')
+ 
+input.addEventListener('keydown', function(e) {
+  if (e.key === "g") {
+    return e.preventDefault()
+  } else {
+    console.log(e.key)
+  }
+});</script><!DOCTYPE html>
 <html>
   <head>
     <title>Listening to Nodes</title>
